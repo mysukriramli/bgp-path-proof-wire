@@ -1,0 +1,16 @@
+{
+  "prefix": "140.82.112.0/20",
+  "encoded_prefix": "140.82.112.0_20",
+  "canonical_origin_asn": 36459,
+  "observed_origin_asn": 36459,
+  "as_path_normalized": [
+    6461,
+    36459
+  ],
+  "path_length": 2,
+  "collector_quorum": 320,
+  "peer_visibility": 1.0,
+  "rpki_status": "valid",
+  "route_classification": "ORIGIN_STABLE",
+  "timestamp_utc": "2026-10-27T00:58:41.673469+00:00"
+}

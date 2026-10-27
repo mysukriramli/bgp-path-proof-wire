@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "title": "BgpPathProof",
+  "type": "object",
+  "properties": {
+    "prefix": {
+      "type": "string"
+    },
+    "origin_asn": {
+      "type": "integer"
+    },
+    "as_path": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "peer_visibility": {
+      "type": "number"
+    },
+    "rpki": {
+      "type": "string"
+    },
+    "proof_hash": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "prefix",
+    "origin_asn",
+    "as_path",
+    "peer_visibility",
+    "rpki",
+    "proof_hash"
+  ]
+}

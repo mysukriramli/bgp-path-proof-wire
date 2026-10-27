@@ -1,0 +1,35 @@
+{
+  "updated_at_utc": "2026-10-27T00:58:41.673469+00:00",
+  "monitored_endpoints": [
+    {
+      "prefix": "140.82.112.0/20",
+      "name": "GitHub_Infrastructure",
+      "expected_origin": 36459
+    },
+    {
+      "prefix": "1.1.1.0/24",
+      "name": "Cloudflare_DNS",
+      "expected_origin": 13335
+    },
+    {
+      "prefix": "8.8.8.0/24",
+      "name": "Google_DNS",
+      "expected_origin": 15169
+    },
+    {
+      "prefix": "9.9.9.0/24",
+      "name": "Quad9_DNS",
+      "expected_origin": 19281
+    },
+    {
+      "prefix": "199.232.0.0/16",
+      "name": "Fastly_Edge_CDN",
+      "expected_origin": 54113
+    },
+    {
+      "prefix": "205.251.192.0/24",
+      "name": "AWS_Route53",
+      "expected_origin": 16509
+    }
+  ]
+}

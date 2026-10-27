@@ -1,0 +1,16 @@
+{
+  "prefix": "8.8.8.0/24",
+  "encoded_prefix": "8.8.8.0_24",
+  "canonical_origin_asn": 15169,
+  "observed_origin_asn": 15169,
+  "as_path_normalized": [
+    15692,
+    15169
+  ],
+  "path_length": 2,
+  "collector_quorum": 358,
+  "peer_visibility": 1.0,
+  "rpki_status": "unknown",
+  "route_classification": "ORIGIN_STABLE",
+  "timestamp_utc": "2026-10-27T00:58:41.673469+00:00"
+}

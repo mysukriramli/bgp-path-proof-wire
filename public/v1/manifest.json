@@ -1,0 +1,30 @@
+{
+  "wire": "bgp-path-proof-wire",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-10-27T00:58:41.673469+00:00",
+  "source_cursor": "ripe-looking-glass-live",
+  "freshness_slo_seconds": 3600,
+  "artifacts": [
+    "today.json",
+    "path-observations.parquet",
+    "llms.txt",
+    "v1/schema.json",
+    "v1/incidents/active.json",
+    "v1/mesh-endpoints.json"
+  ],
+  "coverage": {
+    "monitored_prefixes": [
+      "140.82.112.0/20",
+      "1.1.1.0/24",
+      "8.8.8.0/24",
+      "9.9.9.0/24",
+      "199.232.0.0/16",
+      "205.251.192.0/24"
+    ],
+    "upstream_collector": "RIPE RIS"
+  },
+  "limitations": [
+    "Sampled multi-collector observation envelope",
+    "Does not reflect entire unannounced darknet space"
+  ]
+}

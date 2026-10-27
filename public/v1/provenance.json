@@ -1,0 +1,10 @@
+{
+  "generator": "bgp-path-proof-wire",
+  "runtime": "python-3.11",
+  "sources": [
+    "RIPE RIS Looking Glass API",
+    "RIPE Stat RPKI Engine"
+  ],
+  "hash_algorithm": "sha256",
+  "generated_at_utc": "2026-10-27T00:58:41.673469+00:00"
+}
