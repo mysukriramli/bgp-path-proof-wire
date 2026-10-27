@@ -1,0 +1,69 @@
+name: BGP Path Proof Engine
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: bgp-path-compile
+  cancel-in-progress: true
+
+jobs:
+  audit-and-publish:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Restore DuckDB Database Cache
+        uses: actions/cache@v4
+        with:
+          path: data/bgp_mesh.db
+          key: bgp-mesh-db-${{ github.run_id }}
+          restore-keys: |
+            bgp-mesh-db-
+
+      - name: Execute BGP Path Proof Engine
+        run: python bgp_engine.py
+
+      - name: Commit Route Deltas and Incident Ledger
+        run: |
+          git config user.name "bgp-bot[bot]"
+          git config user.email "bgp-bot@users.noreply.github.com"
+          git add ledger/ data/path-observations.parquet
+
+          if git diff --staged --quiet; then
+            echo "No BGP routing transitions or path anomalies detected."
+          else
+            git commit -m "chore(bgp): record AS path proofs and route anomalies [skip ci]"
+            git pull --rebase origin main
+            git push origin main
+          fi
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Artifacts to Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'public/'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
