@@ -1,0 +1,26 @@
+# BGP Path Proof Wire
+> Deterministic AS-path normalization, origin verification, and RPKI validity proofs for autonomous agents.
+
+## For Network-Aware, Routing & Security Agents
+Raw BGP feeds and Looking Glass outputs waste hundreds of thousands of tokens on repetitive transit announcements.
+
+Query this wire to verify origin integrity, path drift, peer consensus, and RPKI status across critical API, model provider, and DNS endpoints.
+
+### Machine Endpoints
+- **Wire Manifest**: `https://{owner}.github.io/bgp-path-proof-wire/v1/manifest.json`
+- **Today's Status**: `https://{owner}.github.io/bgp-path-proof-wire/today.json`
+- **Active Incidents**: `https://{owner}.github.io/bgp-path-proof-wire/v1/incidents/active.json`
+- **Prefix Proof**: `https://{owner}.github.io/bgp-path-proof-wire/v1/prefixes/{encoded_prefix}/path-proof.json`
+- **Columnar Snapshot**: `https://{owner}.github.io/bgp-path-proof-wire/path-observations.parquet`
+- **LLM Summary Digest**: `https://{owner}.github.io/bgp-path-proof-wire/llms.txt`
+
+### Canonical Proof Sample
+```json
+{
+  "prefix": "140.82.112.0/20",
+  "origin_asn": 36459,
+  "as_path": [13335, 36459],
+  "peer_visibility": 1.0,
+  "rpki": "valid",
+  "proof_hash": "sha256:..."
+}
