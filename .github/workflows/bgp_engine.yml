@@ -46,13 +46,15 @@ jobs:
         run: |
           git config user.name "bgp-bot[bot]"
           git config user.email "bgp-bot@users.noreply.github.com"
-          git add ledger/ data/path-observations.parquet
+
+          # Stage ledger, parquet, and public updates
+          git add ledger/ data/path-observations.parquet public/
 
           if git diff --staged --quiet; then
             echo "No BGP routing transitions or path anomalies detected."
           else
             git commit -m "chore(bgp): record AS path proofs and route anomalies [skip ci]"
-            git pull --rebase origin main
+            git pull --rebase --autostash origin main
             git push origin main
           fi
 
