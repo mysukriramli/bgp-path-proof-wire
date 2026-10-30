@@ -1,7 +1,7 @@
 {
   "wire": "bgp-path-proof-wire",
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-29T20:45:38.985343+00:00",
+  "generated_at": "2026-10-30T00:31:16.278543+00:00",
   "source_cursor": "ripe-looking-glass-live",
   "freshness_slo_seconds": 3600,
   "artifacts": [
