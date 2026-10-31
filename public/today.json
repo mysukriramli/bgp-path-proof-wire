@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "updated_at_utc": "2026-10-31T18:40:13.608708+00:00",
+  "updated_at_utc": "2026-10-31T22:05:12.407656+00:00",
   "monitored_prefixes_count": 6,
   "prefixes": [
     {
@@ -16,7 +16,7 @@
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "84f41b2fa8cc7b3ea6b2ed093d58cdaac4b897e3e3371b888c44f66f60076729"
+      "proof_hash": "207949f3cdad223ddb7e4cb25f64c935bc751655a9892548a4c49c7f5571eaff"
     },
     {
       "prefix": "1.1.1.0/24",
@@ -30,7 +30,7 @@
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "876bca61c4b62e276b63c222575f33c1843decd0e2f1ab4cb5cd827775a647f1"
+      "proof_hash": "cedb6f245ca1c8bf920ed7237eab1c9084ed75d0d0e082d33a0324c177acd7cc"
     },
     {
       "prefix": "8.8.8.0/24",
@@ -39,13 +39,13 @@
       "origin_asn": 15169,
       "path_length": 2,
       "as_path": [
-        15692,
+        8218,
         15169
       ],
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "8ba23c2d4434d3f20c7c74dd16b6cc72c6b8ad46c4b21f90f8b1612a5d29b5a3"
+      "proof_hash": "304fd88b7fcc2aecb9a2510260b55f72c999a4a30c764390a045213ac54ecbce"
     },
     {
       "prefix": "9.9.9.0/24",
@@ -60,7 +60,7 @@
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "af5d292c661735e4596d6b3a978b60322c7718bfb3a9ae9546b39d86df238a59"
+      "proof_hash": "718560a7fd5833c70b0d006f5241509d0b0d70a957e5e9379cd57fb10b9b8134"
     },
     {
       "prefix": "199.232.0.0/16",
@@ -69,13 +69,13 @@
       "origin_asn": 54113,
       "path_length": 2,
       "as_path": [
-        8218,
+        6461,
         54113
       ],
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "1871cbcba820917e3cca74e76e847da9f7e999a4c3b0c580ae17c488acae1fa8"
+      "proof_hash": "4f4f4dac09a2f283b8c85f2dff5e8b0ce65f1e2ed1edd2c7725562d0f955edba"
     },
     {
       "prefix": "205.251.192.0/24",
@@ -84,13 +84,13 @@
       "origin_asn": 16509,
       "path_length": 2,
       "as_path": [
-        8218,
+        6461,
         16509
       ],
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "b0a905c9e4ff03eb85bc65e9c0df34491b62f59891e267f4222777bdcdf4de6d"
+      "proof_hash": "4afd6ccaaf8b4d8fbb5ee3651536c668bca97a867cb179db476b1c4773f1f9d2"
     }
   ]
 }
