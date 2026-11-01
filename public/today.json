@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "updated_at_utc": "2026-11-01T14:38:06.540331+00:00",
+  "updated_at_utc": "2026-11-01T19:18:08.165764+00:00",
   "monitored_prefixes_count": 6,
   "prefixes": [
     {
@@ -16,7 +16,7 @@
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "c24cafb193329be7e9f73512e326a55d4ae34f2012e874beaa3e184a80a682ad"
+      "proof_hash": "37566b3670eafb7bb669ecfb0187b2cdafff1b0d71c80904076ce5b27b5277ed"
     },
     {
       "prefix": "1.1.1.0/24",
@@ -30,37 +30,35 @@
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "390a200c1f9cdd51e0b8c780bea9ba39cd27d92f607b7cd54a3165923211b7ac"
+      "proof_hash": "ad0c634c1fd18aadb52504b253d2a412c65fcc399199ce0da1002bad558be238"
     },
     {
       "prefix": "8.8.8.0/24",
       "encoded_prefix": "8.8.8.0_24",
       "name": "Google_DNS",
       "origin_asn": 15169,
-      "path_length": 2,
+      "path_length": 1,
       "as_path": [
-        15692,
         15169
       ],
       "visibility": 1.0,
-      "rpki": "valid",
+      "rpki": "unknown",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "144ddbc4c689cc8bc8a2a900823e0e60c26c111d625c00ad4c21a388d505f074"
+      "proof_hash": "87d5c591d8c956040be6b660e1dfc9b883526a7903bdb2e1b77cda3531d97927"
     },
     {
       "prefix": "9.9.9.0/24",
       "encoded_prefix": "9.9.9.0_24",
       "name": "Quad9_DNS",
       "origin_asn": 19281,
-      "path_length": 2,
+      "path_length": 1,
       "as_path": [
-        42,
         19281
       ],
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "0a732173c07042cb65dd96d37ef0b4251cd7df5ef25761b2a19891fc09fe134f"
+      "proof_hash": "e21d47bb029c2cbecc29a23ce687d62ccced2bd13fdfe20f1f6aa77a8a3ed705"
     },
     {
       "prefix": "199.232.0.0/16",
@@ -73,9 +71,9 @@
         54113
       ],
       "visibility": 1.0,
-      "rpki": "valid",
+      "rpki": "unknown",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "b58ba3aabcae65922c0b554ba5900049ec3627d67b2df86ddc2bf8061e1e8bc5"
+      "proof_hash": "44b097fba7940d35a9df835c3f3591b2fe87bf9e9fb01146045677428b181b78"
     },
     {
       "prefix": "205.251.192.0/24",
@@ -88,9 +86,9 @@
         16509
       ],
       "visibility": 1.0,
-      "rpki": "valid",
+      "rpki": "unknown",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "08539c2e6e430b4e3c425bbbc4826429f28105d5534ee011563c164854d73d41"
+      "proof_hash": "44cd8a8a7e1db51aaa768d1619eae1429df5e74f7647fe9bbcc48c0603ea7a93"
     }
   ]
 }
