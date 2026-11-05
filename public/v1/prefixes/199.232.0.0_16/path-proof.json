@@ -1,5 +1,5 @@
 {
-  "proof_hash": "8fc75fe15c86ca6a629e3f34471791c346fb7e9bcfbf7bbf78e7b9d55ce38db9",
+  "proof_hash": "ba4bc2ff5644a07e9b2a365c653df0ce250fae26934c22dc47fcff476a9763f5",
   "prefix": "199.232.0.0/16",
   "origin_asn": 54113,
   "as_path": [
@@ -8,5 +8,5 @@
   ],
   "peer_visibility": 1.0,
   "rpki": "valid",
-  "verified_at_utc": "2026-11-05T20:25:29.578245+00:00"
+  "verified_at_utc": "2026-11-05T23:52:39.188298+00:00"
 }
