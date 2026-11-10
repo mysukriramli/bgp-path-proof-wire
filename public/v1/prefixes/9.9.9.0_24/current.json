@@ -8,9 +8,9 @@
     19281
   ],
   "path_length": 2,
-  "collector_quorum": 373,
+  "collector_quorum": 368,
   "peer_visibility": 1.0,
   "rpki_status": "valid",
   "route_classification": "ORIGIN_STABLE",
-  "timestamp_utc": "2026-11-09T21:34:18.931144+00:00"
+  "timestamp_utc": "2026-11-10T02:36:27.107606+00:00"
 }
