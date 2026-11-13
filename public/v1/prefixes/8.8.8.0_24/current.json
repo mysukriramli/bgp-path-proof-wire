@@ -4,13 +4,13 @@
   "canonical_origin_asn": 15169,
   "observed_origin_asn": 15169,
   "as_path_normalized": [
-    15692,
+    8218,
     15169
   ],
   "path_length": 2,
-  "collector_quorum": 367,
+  "collector_quorum": 366,
   "peer_visibility": 1.0,
   "rpki_status": "valid",
   "route_classification": "ORIGIN_STABLE",
-  "timestamp_utc": "2026-11-12T16:39:32.165239+00:00"
+  "timestamp_utc": "2026-11-13T00:56:38.387788+00:00"
 }

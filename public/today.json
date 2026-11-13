@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-12",
-  "updated_at_utc": "2026-11-12T16:39:32.165239+00:00",
+  "date": "2026-11-13",
+  "updated_at_utc": "2026-11-13T00:56:38.387788+00:00",
   "monitored_prefixes_count": 6,
   "prefixes": [
     {
@@ -16,7 +16,7 @@
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "4a326a8c1cbf9ddc6617d2e625efb88ab8199627800929d23144ed3076dbf32e"
+      "proof_hash": "23fe3bdb4e9044a14f476f226a57ec5eae4d0400dda5ef62854c92f32d000578"
     },
     {
       "prefix": "1.1.1.0/24",
@@ -30,7 +30,7 @@
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "ce9483704dcee056f9739978aa78c07444453c27b17e72cf7774dc21e440e934"
+      "proof_hash": "8b7ba57d94bac1ba1c4b7fee81c42416b52e6f40db483d3da53fbbbdf6f864ec"
     },
     {
       "prefix": "8.8.8.0/24",
@@ -39,13 +39,13 @@
       "origin_asn": 15169,
       "path_length": 2,
       "as_path": [
-        15692,
+        8218,
         15169
       ],
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "02cbce22e7b44aa56ee7d225fbd1fb167b71e49ac84def48eeb65699fec80f96"
+      "proof_hash": "5646f82d54674aa49e63b3e5a422306c5f4d69cf99a7c567959edf67c9b777f4"
     },
     {
       "prefix": "9.9.9.0/24",
@@ -60,7 +60,7 @@
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "9d459b4638c65a0f862e65293aacd5b1fd463798749f2c3b2e58fdc6d144cea0"
+      "proof_hash": "93c1ed2c534757fee561f73ca20181da428495c2cfbddaedfc7a1eba39ea4527"
     },
     {
       "prefix": "199.232.0.0/16",
@@ -75,7 +75,7 @@
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "c776389ea425858a16a78e4eab32245f2013c4b1c49b45fce86ed83a4756c203"
+      "proof_hash": "d0ad653d15e0783e173e42232e34b125d01555e65680d40e609bd5be5a918668"
     },
     {
       "prefix": "205.251.192.0/24",
@@ -90,7 +90,7 @@
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "3599b27abcc84715d2414d6de96307175a8d54563ae4ae14a7faa1fc7eda81a3"
+      "proof_hash": "f2e5b6b7ef302896517f6e679446a20e7234a5ee8a134e13e140a5da3136dafd"
     }
   ]
 }
