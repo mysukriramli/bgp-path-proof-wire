@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "updated_at_utc": "2026-11-17T12:52:49.299922+00:00",
+  "updated_at_utc": "2026-11-17T23:23:43.021113+00:00",
   "monitored_prefixes_count": 6,
   "prefixes": [
     {
@@ -16,7 +16,7 @@
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "0d7ea85ea72f4b5513ab1ceaa6a713cbdd905316868acbcd8ecd51db5152b16d"
+      "proof_hash": "71f0b02f3c676b38e928fae1635c1fa359aa4b415aa4ab6168f71bf57e09f9b0"
     },
     {
       "prefix": "1.1.1.0/24",
@@ -30,7 +30,7 @@
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "00e259c8cd68facacca244624575c6d405e87922194e8f745cbc4552703be6a6"
+      "proof_hash": "49412f674f838cb8b83713b29ac15568809bf01ff9cfc633fc1f0710f6f93274"
     },
     {
       "prefix": "8.8.8.0/24",
@@ -45,7 +45,7 @@
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "03350753439f1e628f6afbc8ffc8a8c499b0b6e5211bd2b4f493bf7dba44189a"
+      "proof_hash": "978a98764891e70401ac8ff2c981d439d859871a775c66b52f1cade14cf00640"
     },
     {
       "prefix": "9.9.9.0/24",
@@ -60,7 +60,7 @@
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "763dec931642f31861b5054e449b592e9a82fa448b2bee673b012edab2bcb537"
+      "proof_hash": "8e4bd9f1f6284a3521dc4f66e326f9a0147c9a2c49614af09c723841d57bc39a"
     },
     {
       "prefix": "199.232.0.0/16",
@@ -75,7 +75,7 @@
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "e4f5e3f7b9fb60bc694219fffe7b6b2821d5c2ce45790292b1e9ca9610779fdf"
+      "proof_hash": "b7239b67e8a26ac20b431b7c6ce42ac11caacaba0ca8f99b4a9255148172cb0a"
     },
     {
       "prefix": "205.251.192.0/24",
@@ -90,7 +90,7 @@
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "ebf656e3d3530a42d38f4b05e74c3e2c8fdc508a303f8f78c31bcab9bb1b032d"
+      "proof_hash": "ce792673f5d4e442fbcb1527fa3f984a703b11914ab622e2ef7682f818cbd04b"
     }
   ]
 }
