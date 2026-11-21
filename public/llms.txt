@@ -1,30 +1,30 @@
 # BGP Path Proof Wire
-> Last Sync: 2026-11-21T12:16:35.068209+00:00 UTC
+> Last Sync: 2026-11-21T21:30:08.329366+00:00 UTC
 > Optimization: Deterministic AS-Path normalization, origin stability, and RPKI validity proofs.
 > Slashes hundreds of thousands of raw BGP JSON tokens to 100 to 700 tokens per route proof.
 
 ## Monitored Infrastructure Routes & Stability
 - **GitHub_Infrastructure** (`140.82.112.0/20`) [ORIGIN_STABLE]:
   - Origin: `AS36459` | RPKI: `valid` | Visibility: `100.0%`
-  - AS Path: `AS6461 -> AS36459`
-  - Proof Hash: `4ad13aaa4c579286`
+  - AS Path: `AS36459`
+  - Proof Hash: `c2ce84bf70615ffc`
 - **Cloudflare_DNS** (`1.1.1.0/24`) [ORIGIN_STABLE]:
   - Origin: `AS13335` | RPKI: `valid` | Visibility: `100.0%`
   - AS Path: `AS13335`
-  - Proof Hash: `c1f98b4466ed4c02`
+  - Proof Hash: `08b75d6daabc53eb`
 - **Google_DNS** (`8.8.8.0/24`) [ORIGIN_STABLE]:
   - Origin: `AS15169` | RPKI: `valid` | Visibility: `100.0%`
-  - AS Path: `AS8218 -> AS15169`
-  - Proof Hash: `3689fe9db676cef2`
+  - AS Path: `AS15169`
+  - Proof Hash: `26cf7b255f3d3758`
 - **Quad9_DNS** (`9.9.9.0/24`) [ORIGIN_STABLE]:
   - Origin: `AS19281` | RPKI: `valid` | Visibility: `100.0%`
-  - AS Path: `AS42 -> AS19281`
-  - Proof Hash: `62de664f240d177f`
+  - AS Path: `AS19281`
+  - Proof Hash: `97b20981c2560f68`
 - **Fastly_Edge_CDN** (`199.232.0.0/16`) [ORIGIN_STABLE]:
   - Origin: `AS54113` | RPKI: `valid` | Visibility: `100.0%`
-  - AS Path: `AS8218 -> AS54113`
-  - Proof Hash: `18e7769f88eb954c`
+  - AS Path: `AS54113`
+  - Proof Hash: `35cc96585254093d`
 - **AWS_Route53** (`205.251.192.0/24`) [ORIGIN_STABLE]:
   - Origin: `AS16509` | RPKI: `valid` | Visibility: `100.0%`
-  - AS Path: `AS8218 -> AS16509`
-  - Proof Hash: `7413aca72d1c7a5b`
+  - AS Path: `AS16509`
+  - Proof Hash: `5c20356ce771f5c4`

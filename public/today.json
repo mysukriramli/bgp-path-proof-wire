@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "updated_at_utc": "2026-11-21T12:16:35.068209+00:00",
+  "updated_at_utc": "2026-11-21T21:30:08.329366+00:00",
   "monitored_prefixes_count": 6,
   "prefixes": [
     {
@@ -8,15 +8,14 @@
       "encoded_prefix": "140.82.112.0_20",
       "name": "GitHub_Infrastructure",
       "origin_asn": 36459,
-      "path_length": 2,
+      "path_length": 1,
       "as_path": [
-        6461,
         36459
       ],
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "4ad13aaa4c57928669e923eea7d41b0e8c2ab2d2e56a7a189816f9c8e64094c8"
+      "proof_hash": "c2ce84bf70615ffc6ae5097efa6af77541b5a58d56dd3c118ad54b45a96b8aac"
     },
     {
       "prefix": "1.1.1.0/24",
@@ -30,67 +29,63 @@
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "c1f98b4466ed4c02c238182c87c20f2cf6e6ab4cfcf45ea3e2226253dfe3655f"
+      "proof_hash": "08b75d6daabc53ebf9fa5d3da427e8c35d7332b689802a600bb6b20cf19901ee"
     },
     {
       "prefix": "8.8.8.0/24",
       "encoded_prefix": "8.8.8.0_24",
       "name": "Google_DNS",
       "origin_asn": 15169,
-      "path_length": 2,
+      "path_length": 1,
       "as_path": [
-        8218,
         15169
       ],
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "3689fe9db676cef27fd514f31eda5cb975a24f0b16b73a50e116a37231422617"
+      "proof_hash": "26cf7b255f3d375824265d54f726c35f3d7c8b99ef54415dd4662ea7fc9661e4"
     },
     {
       "prefix": "9.9.9.0/24",
       "encoded_prefix": "9.9.9.0_24",
       "name": "Quad9_DNS",
       "origin_asn": 19281,
-      "path_length": 2,
+      "path_length": 1,
       "as_path": [
-        42,
         19281
       ],
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "62de664f240d177f8ec2887094cc1e554eb040c90792b9a1eb09c4a104df78a1"
+      "proof_hash": "97b20981c2560f68a786dc868f4d25eb263c94c18159af9d265d23f095c6558f"
     },
     {
       "prefix": "199.232.0.0/16",
       "encoded_prefix": "199.232.0.0_16",
       "name": "Fastly_Edge_CDN",
       "origin_asn": 54113,
-      "path_length": 2,
+      "path_length": 1,
       "as_path": [
-        8218,
         54113
       ],
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "18e7769f88eb954cb237aa72fa20bbfd72ff17ebc7367624b24149867a860487"
+      "proof_hash": "35cc96585254093d31ba5aeab45c7d58af3e5ad235b5058b31f4ce4174d12af5"
     },
     {
       "prefix": "205.251.192.0/24",
       "encoded_prefix": "205.251.192.0_24",
       "name": "AWS_Route53",
       "origin_asn": 16509,
-      "path_length": 2,
+      "path_length": 1,
       "as_path": [
-        8218,
         16509
       ],
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "7413aca72d1c7a5b2e38876b14c19b6a1d0bfb7ca9579e5f837900fc69d022e1"
+      "proof_hash": "5c20356ce771f5c42f73845463519adda937feaf6100da519bc77a8191032f7f"
     }
   ]
 }
