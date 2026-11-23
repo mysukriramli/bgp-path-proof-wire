@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "updated_at_utc": "2026-11-23T00:38:09.739157+00:00",
+  "updated_at_utc": "2026-11-23T14:10:33.068088+00:00",
   "monitored_prefixes_count": 6,
   "prefixes": [
     {
@@ -13,9 +13,9 @@
         36459
       ],
       "visibility": 1.0,
-      "rpki": "valid",
+      "rpki": "unknown",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "ffe73c470fb3b33a73271903383ab11e5ee3e6ab90844d9e87bdbe5713e53665"
+      "proof_hash": "b25aabcf9c6906ff856938973d94ba6b4a5eb9e9f517d67bc4a496caaf84011c"
     },
     {
       "prefix": "1.1.1.0/24",
@@ -27,9 +27,9 @@
         13335
       ],
       "visibility": 1.0,
-      "rpki": "valid",
+      "rpki": "unknown",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "746bbd6478032e33e536487d9bba2dc71cdbcf4480a21879bf6e75919d2cb56f"
+      "proof_hash": "5f773f5a6afe9444b2d2f6255e2b888efc1d5f439b3013ef80ba726d413aa92f"
     },
     {
       "prefix": "8.8.8.0/24",
@@ -41,9 +41,9 @@
         15169
       ],
       "visibility": 1.0,
-      "rpki": "valid",
+      "rpki": "unknown",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "fd1217b648ea87b4bfd4ab9753bfb624d4173e72053e679ff9300376eef5af5f"
+      "proof_hash": "dd367982e8a25b1a6384250afd51b0a149984afb024c710f957362b9c91c74d2"
     },
     {
       "prefix": "9.9.9.0/24",
@@ -55,9 +55,9 @@
         19281
       ],
       "visibility": 1.0,
-      "rpki": "valid",
+      "rpki": "unknown",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "c0899cdaa38e70c7a6ab658af0e7ce2d467539b02979dd9764d3eb83fb3c9042"
+      "proof_hash": "82aaf745fe42f79e2bea64895b877855894793479bfbbe1b0f18ff8aec92a797"
     },
     {
       "prefix": "199.232.0.0/16",
@@ -69,9 +69,9 @@
         54113
       ],
       "visibility": 1.0,
-      "rpki": "valid",
+      "rpki": "unknown",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "a4d3b7735aa7afedb6a0fd9e1620b2cb65c557d657a925cf9cc8915814347f39"
+      "proof_hash": "3c5fdd867fd862697b7165ce2c670cc09526edebfb361816935a9994fcd2381d"
     },
     {
       "prefix": "205.251.192.0/24",
@@ -83,9 +83,9 @@
         16509
       ],
       "visibility": 1.0,
-      "rpki": "valid",
+      "rpki": "unknown",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "07342a96654104b0e3e826dca81425b844f28bc791010b17999a5895249d3e07"
+      "proof_hash": "1952665026d1440d5d17f6e7b67d6cd2296b1ae2eebfbdd63b114abf7f31d981"
     }
   ]
 }
