@@ -1,30 +1,30 @@
 # BGP Path Proof Wire
-> Last Sync: 2026-11-23T14:10:33.068088+00:00 UTC
+> Last Sync: 2026-11-24T02:47:45.467574+00:00 UTC
 > Optimization: Deterministic AS-Path normalization, origin stability, and RPKI validity proofs.
 > Slashes hundreds of thousands of raw BGP JSON tokens to 100 to 700 tokens per route proof.
 
 ## Monitored Infrastructure Routes & Stability
 - **GitHub_Infrastructure** (`140.82.112.0/20`) [ORIGIN_STABLE]:
-  - Origin: `AS36459` | RPKI: `unknown` | Visibility: `100.0%`
-  - AS Path: `AS36459`
-  - Proof Hash: `b25aabcf9c6906ff`
+  - Origin: `AS36459` | RPKI: `valid` | Visibility: `100.0%`
+  - AS Path: `AS6461 -> AS36459`
+  - Proof Hash: `337d2d44ed90bcbf`
 - **Cloudflare_DNS** (`1.1.1.0/24`) [ORIGIN_STABLE]:
-  - Origin: `AS13335` | RPKI: `unknown` | Visibility: `100.0%`
+  - Origin: `AS13335` | RPKI: `valid` | Visibility: `100.0%`
   - AS Path: `AS13335`
-  - Proof Hash: `5f773f5a6afe9444`
+  - Proof Hash: `e43ffd460f15ba8d`
 - **Google_DNS** (`8.8.8.0/24`) [ORIGIN_STABLE]:
-  - Origin: `AS15169` | RPKI: `unknown` | Visibility: `100.0%`
-  - AS Path: `AS15169`
-  - Proof Hash: `dd367982e8a25b1a`
+  - Origin: `AS15169` | RPKI: `valid` | Visibility: `100.0%`
+  - AS Path: `AS15692 -> AS15169`
+  - Proof Hash: `3e1d8c9986b8b0d1`
 - **Quad9_DNS** (`9.9.9.0/24`) [ORIGIN_STABLE]:
-  - Origin: `AS19281` | RPKI: `unknown` | Visibility: `100.0%`
-  - AS Path: `AS19281`
-  - Proof Hash: `82aaf745fe42f79e`
+  - Origin: `AS19281` | RPKI: `valid` | Visibility: `100.0%`
+  - AS Path: `AS42 -> AS19281`
+  - Proof Hash: `ecff6a4785bb476b`
 - **Fastly_Edge_CDN** (`199.232.0.0/16`) [ORIGIN_STABLE]:
-  - Origin: `AS54113` | RPKI: `unknown` | Visibility: `100.0%`
-  - AS Path: `AS54113`
-  - Proof Hash: `3c5fdd867fd86269`
+  - Origin: `AS54113` | RPKI: `valid` | Visibility: `100.0%`
+  - AS Path: `AS8218 -> AS54113`
+  - Proof Hash: `aca6ee7fdee9d550`
 - **AWS_Route53** (`205.251.192.0/24`) [ORIGIN_STABLE]:
-  - Origin: `AS16509` | RPKI: `unknown` | Visibility: `100.0%`
-  - AS Path: `AS16509`
-  - Proof Hash: `1952665026d1440d`
+  - Origin: `AS16509` | RPKI: `valid` | Visibility: `100.0%`
+  - AS Path: `AS8218 -> AS16509`
+  - Proof Hash: `b695b027120ab7df`
