@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-24",
-  "updated_at_utc": "2026-11-24T14:39:23.768460+00:00",
+  "date": "2026-11-25",
+  "updated_at_utc": "2026-11-25T00:26:23.722482+00:00",
   "monitored_prefixes_count": 6,
   "prefixes": [
     {
@@ -16,7 +16,7 @@
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "f26407f82925816d62eba06d293d6fb35dedb7b1a05254cfb19a1d044eef0955"
+      "proof_hash": "de8f0324819b1029419de6629d2422756f4b38b1fffd7f62442621617b4cb1a5"
     },
     {
       "prefix": "1.1.1.0/24",
@@ -30,7 +30,7 @@
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "af7da4ec71f420601d37915eb3b9c3abd37f05cc0da576cd9ade0ba680d178a2"
+      "proof_hash": "f5183d16f54857213d7f523033e111d54366f3c3d5c7f96f17d155273e2a50d0"
     },
     {
       "prefix": "8.8.8.0/24",
@@ -45,7 +45,7 @@
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "474b837fe24bf36720b8e08ec91c294c208a5d08df865daacad82cc1b30d312a"
+      "proof_hash": "a8072b2de4284f4f515295cd2e17cc92ef597e70164e36854b1ec37b005f5a39"
     },
     {
       "prefix": "9.9.9.0/24",
@@ -60,7 +60,7 @@
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "929e340f776618ddae39dc2a023a2e82dde4ce88696a232d65dddcbf24b8f8a3"
+      "proof_hash": "14ee9d929303d50ad6528acaa23764e80dcd5b086e307e24f1442d75d39d8c7a"
     },
     {
       "prefix": "199.232.0.0/16",
@@ -75,7 +75,7 @@
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "dc2094354a54bb28d70ff52c50e6c4dca06c397e67d8f63e48813cc25376bc02"
+      "proof_hash": "7603474237977ec501133f721579d0c9618fc6f2a2df0a28615c1ae14fce9a19"
     },
     {
       "prefix": "205.251.192.0/24",
@@ -90,7 +90,7 @@
       "visibility": 1.0,
       "rpki": "valid",
       "classification": "ORIGIN_STABLE",
-      "proof_hash": "ee8cb4e808f9712f216677fbc25da38c36fb32e30abe2413107dbe53a6ed126d"
+      "proof_hash": "0d1abe71be46ccde3694c98fbfb48f1b536db450c007098cbddb36750c43f34c"
     }
   ]
 }
